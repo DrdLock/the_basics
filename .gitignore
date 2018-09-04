@@ -1,0 +1,4 @@
+# This file ignores specified files from being put into our repo
+
+# Ignore all SQLite databases
+db/*.sqlite3
