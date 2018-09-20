@@ -6,11 +6,13 @@ These are essential commands when working in git:
 
 git init:        Creates a local repository for new project
 
+git config:      Make configurations to local repository with appropriate flags
+
 git add:         Stages changes to be made to the current repository (git add <local file>)
 
 git status:      Checks currently staged files and changes (use git add again if files have been changed since previous staging)
 
-git commit:   Commits the changes to be made to the repository
+git commit:      Commits the changes to be made to the repository
 	  -m  includes a message (git commit -m 'message')
 
 git log:         Checks all recent commits
@@ -18,8 +20,6 @@ git log:         Checks all recent commits
 git push:        Pushes local repository work to your remote repository (git push <remote alias> <local branch>)
 	-u       allows local branch to track the remote branch specified
  
-
-git fetch:       Downloads any changes recently made in remote repository into local repository
 
 git diff:        Show the differences between the local repository and the fetched data (git diff <local repo> <alias path>)
 
@@ -38,5 +38,6 @@ git remote add:  links a local repository with an exisitng remote repository (gi
 git clone:       Make an exact clone of an exisiting remote repository; used commonly when joining projects
 		 (git clone <remote_url> <local directory>)
 
+git fetch:       Downloads any changes recently made in remote repository into local repository
 
 
