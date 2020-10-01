@@ -41,3 +41,13 @@ git clone:       Make an exact clone of an exisiting remote repository; used com
 git fetch:       Downloads any changes recently made in remote repository into local repository
 
 
+
+
+
++++++++++++++++++++++++++
+       2nd Branch       +
++++++++++++++++++++++++++
+
+git branch:     List of commands to create more branches to experiment with outside of the Master
+
+git switch:     Allows you to switch branches on the fly
