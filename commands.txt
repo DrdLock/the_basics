@@ -23,7 +23,8 @@ git push:        Pushes local repository work to your remote repository (git pus
 
 git diff:        Show the differences between the local repository and the fetched data (git diff <local repo> <alias path>)
 
-git pull:        Merges changes from remote repository with local repository
+git pull:        Merges changes from remote repository with local repository 
+                (use git pull --ff-only to match history)
 
 ##############################
 # REMOTE REPOSITORY COMMANDS #
