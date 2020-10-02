@@ -44,10 +44,12 @@ git fetch:       Downloads any changes recently made in remote repository into l
 
 
 
-+++++++++++++++++++++++++
-       2nd Branch       +
-+++++++++++++++++++++++++
+#######################
+# ALT BRANCH COMMANDS #
+#######################
 
 git branch:     List of commands to create more branches to experiment with outside of the Master
 
 git switch:     Allows you to switch branches on the fly
+
+git merge:      Whenever you're ready to copy over the contents of 'servant' to 'master', you can run 'git merge servant' to copy over all changes to the master directory! 
